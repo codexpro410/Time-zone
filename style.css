@@ -1,0 +1,283 @@
+  @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@1,300;1,400;1,700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+:root{
+
+}
+*{
+    box-sizing: border-box;
+}
+body{
+
+    padding: 0;
+    margin: 0;
+    font-size: large;
+    font-family: 'Lobster Two', cursive;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: #f0f0f2;
+    padding: 25px 10%;
+    position: fixed;
+    box-shadow: inset 0 -10px 10px -10px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    font-family: 'Public Sans', sans-serif;
+    padding: 0 1rem;
+}
+nav ul *:hover{
+    color: red;
+    cursor: pointer;
+}
+section,footer{
+    padding:200px 20% 0% 20%;
+    display: flex;
+}
+p{
+    line-height: 2rem;
+    color: #777777;
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-family: 'Public Sans', sans-serif;
+}
+h5{
+    font-family: 'Public Sans', sans-serif;
+    line-height: 2rem;
+
+}
+.sec1{
+ 
+    padding-top: 50px;
+    background: #f0f0f2;
+    height: 100vh;
+
+    justify-content: space-around;
+    /* overflow: hidden; */
+}
+.sec1 .left{
+    width: 50%;
+    align-self: center;
+}
+.sec1 .left h1{
+    font-size: 60px;
+}
+.sec1 img{
+    max-height: 100%;
+    display: block;
+}
+button{
+    background: red;
+    color: white;
+    width: 255px;
+    height: 60px;
+    /* text-decoration: none; */
+    border: none;
+    font-size: large;
+    margin-top: 5rem;
+    cursor: pointer;
+    /* text-align: center; */
+}
+button:hover{
+
+}
+.sec1 .left button{
+    margin-top: 3rem;
+    text-decoration: none;
+    color: white;
+    background: #4a4a4b;
+    /* padding: 25px 29px; */
+    font-size: larger;
+   text-transform: capitalize;
+}
+.sec2{
+    background: #ffffff;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.card{
+padding: 0 15px;
+}
+.sec2{
+    flex-direction: column;
+}
+.sec2 p{
+    color: red;
+    
+}
+.sec3{
+    padding: 200px 0 0 0 ;
+    /* width: 100%; */
+}
+.sec3 .img{
+    padding: 10px;
+    width: 100%;
+    height: 600px;
+}
+.sec3 img{
+    padding: 5px;
+    width: 100%;
+    height: 300px;
+}
+.sec4{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 0; */
+}
+.sec4 p{
+    padding: 0 30%;
+    text-align: center;
+    color: #777777;
+}
+.sec4 .container{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+}
+.sec4 .card{
+    padding: 0;
+    width: 33%;
+    margin-bottom: 1%;
+}
+.sec4 button{
+}
+.sec5{
+    padding: 200px 0 0 0 ;
+}
+.sec5 .vid{
+    position: relative;
+    
+}
+.sec5 .vid .red{
+    position: absolute;
+    background: red;
+    width: 33%;
+    height: 15%;
+    left: 0;
+    bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.sec5  i.play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%,-50%); */
+    /* z-index: 2; */
+    color: white;
+    font-size: 100px;
+    line-height: 10px;
+    cursor: pointer;
+}
+.sec6{
+
+    align-items: center;
+}
+.sec6 .left{
+    padding-right: 130px;
+}
+.sec7{
+
+}
+.sec7 .right{
+    padding-left: 130px;
+}
+.sec8{
+    padding:0 15px ;
+    margin:100px 20% 0 20%;
+    background: rgb(165, 43, 43);
+    height: 244px;
+    color: white;
+    justify-content: space-between;
+}
+.sec8 .card{
+    padding:43px 20px 0px 45px ;
+}
+.sec8 .card i{
+    font-size: 30px;
+}
+.sec9{
+    justify-content: space-between;
+    align-items:start;
+}
+.sec9 .links:first-child{
+    width: 30%;
+}
+.sec9 h3{
+    margin-top: 0;
+}
+footer{
+    padding-top: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .social *{
+    padding: 0 5px;
+    cursor: pointer;
+}
+footer p i{
+    color: red;
+}
+footer .social *:hover{
+    color: red;
+}
+
+.DD:hover .dropdownmenu{
+    display: block;
+        /* display: grid; */
+}
+.DD{
+    position: relative;
+    /* width: 150px; */
+}
+
+.dropdownmenu{
+    width: 160px;
+    padding: 1rem 0;
+    display: none;
+    position: absolute;
+    left: -10px;
+    margin-top: 40px;
+    background: white;
+    border-radius: 25px;
+    border-top: 2px solid red;
+
+}
+.dropdownmenu li{
+    color: #4a4a4b;
+}
+.dropdownmenu::before{
+    content: "";
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 10px solid #fd0a0a;
+    position: absolute;
+    top: -10px;
+    left: 25px;
+
+
+}
+.dropdownmenu *{
+    padding: 10px 5px;
+}
+
