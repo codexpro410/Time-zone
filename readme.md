@@ -1,4 +1,4 @@
-# Watch Store - E-Commerce Website
+# Watch Store - Time Zone
 
 Welcome to **Watch Store**, a fully responsive e-commerce website designed for selling watches. This project is built using **HTML**, **CSS**, and **JavaScript** to provide a seamless shopping experience.
 
@@ -19,10 +19,6 @@ Welcome to **Watch Store**, a fully responsive e-commerce website designed for s
 
 - **Responsive Design**: The website is fully responsive and works on all devices (desktop, tablet, and mobile).
 - **Product Listings**: Display a variety of watches with details like name, price, and description.
-- **Shopping Cart**: Add and remove items from the cart with real-time updates.
-- **User Authentication**: Login and signup functionality for users.
-- **Search Functionality**: Easily search for watches by name or category.
-- **Smooth Animations**: CSS animations and transitions for a better user experience.
 - **Dropdown Menus**: Interactive dropdown menus for categories and user options.
 - **Hamburger Menu**: A toggleable menu for mobile devices.
 
